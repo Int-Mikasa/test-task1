@@ -62,10 +62,9 @@ function App() {
       </div>
 
       <div>
-        <Twitter username='' children={user => (
-          user ? <Badge/> : <Loader/>
-        )}>
-        </Twitter>
+        <Twitter username='dsdsd'>
+          { (user) => user ? <Badge/> : <Loader/> }
+      </Twitter>
       </div>
     </div>
   );
