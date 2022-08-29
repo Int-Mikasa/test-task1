@@ -1,0 +1,15 @@
+{
+  "posts": [
+    { "id": 1, "title": "Good tea", "price": 15, "count": 13 }, { "id": 2, "title": "Good coffe", "price": 10, "count": 31 }, { "id": 3, "title": "Good 1", "price": 100, "count": 1 }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
